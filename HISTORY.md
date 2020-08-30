@@ -1,3 +1,6 @@
+# 10.0.3 (2020-08-30)
+* bug fixed to status code being string instead of integer.
+
 # 10.0.2 (2020-08-30)
 * Response error handled with message if other than 200.
 

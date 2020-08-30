@@ -89,7 +89,7 @@ class Issues:
             **data
         )
 
-        if response.status_code != '200':
+        if response.status_code != 200:
             sys.exit("\nI could not get 200 success status! \
                 \nPlease check your auth credential or internet.")
 

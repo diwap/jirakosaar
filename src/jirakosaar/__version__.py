@@ -5,7 +5,7 @@ from os.path import join
 __title__ = 'jirakosaar'
 __description__ = 'Command line tool to get summary of jira issues.'
 __url__ = 'https://github.com/diwap/jirakosaar'
-__version__ = '1.0.2'
+__version__ = '1.0.3'
 __author__ = 'Diwakar Pandey'
 __author_email__ = 'dexterisdiwap@gmail.com'
 __license__ = 'GPL-30.0 License'
