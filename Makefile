@@ -1,4 +1,4 @@
-.PHONY: docs
+.PHONY: init pylint build publish clean
 init:
 	pip install pipenv --upgrade
 	pip install --dev
