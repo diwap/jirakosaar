@@ -4,7 +4,7 @@ Jirakosaar is a command line tool to get summary of jira issues.
 
 ## Installation and Setup
 ```bash
-pip install jirakosaar
+python3 -m pip install --user jirakosaar
 ```
 After installing, we need to configure basic authentication. Before setting up, we need to create [API Token](https://id.atlassian.com/manage-profile/security/api-tokens) from Jira.
 
@@ -25,6 +25,12 @@ Configuring credential completed
 ```
 
 This will create `config.json` file in `$HOME/.jirakosaar` directory.
+
+### MacOS
+You need to run extra step to export path. To set it permanently export in `~/.bash_profile`.
+```
+export PATH=$PATH:~/Library/Python/3.*/bin
+```
 
 ## Usage
 ```
