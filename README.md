@@ -1,5 +1,5 @@
 # Jirakosaar
-![python](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue) ![pylint](https://img.shields.io/badge/pylint-9.70-brightgreen)  
+![python](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue) ![pylint](https://img.shields.io/badge/pylint-9.71-brightgreen)  
 Jirakosaar is a command line tool to get summary of jira issues.
 
 ## Installation and Setup

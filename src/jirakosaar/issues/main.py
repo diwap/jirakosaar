@@ -89,6 +89,10 @@ class Issues:
             **data
         )
 
+        if response.status_code != '200':
+            sys.exit("\nI could not get 200 success status! \
+                \nPlease check your auth credential or internet.")
+
         return json.loads(response.text).get('issues')
 
     def get_current_issues(self):
