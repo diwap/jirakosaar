@@ -114,7 +114,8 @@ class Issues:
         """Stdout issues of authenticated user whose sprint is empty and unresolved.
         """
 
-        jql = 'Sprint is EMPTY AND assignee = currentUser() \
+        jql = '(Sprint is EMPTY OR Sprint in futureSprints()) \
+            AND assignee = currentUser() \
             AND resolution = Unresolved ORDER BY updated DESC'
         print("Backlog\n=============")
         for item in parse_issues(self.get_response(jql)):
