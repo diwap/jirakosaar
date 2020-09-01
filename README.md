@@ -29,7 +29,7 @@ This will create `config.json` file in `$HOME/.jirakosaar` directory.
 ### Linux
 Might need to export path for some Linux distribution. To set it permanently, export in `~/.bash_profile`.
 ```
-export PATH=$PATH:~/Library/Python/3.*/bin
+export PATH=$PATH:~/.local/bin
 ```
 
 ### MacOS
